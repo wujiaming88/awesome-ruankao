@@ -1,5 +1,9 @@
-*.pdf
+# 默认忽略大型二进制
 *.zip
 *.rar
 .DS_Store
 *.tmp
+*.ppm
+
+# 但允许真题目录下的 PDF
+!真题/**/*.pdf
