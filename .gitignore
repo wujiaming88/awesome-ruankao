@@ -1,0 +1,5 @@
+*.pdf
+*.zip
+*.rar
+.DS_Store
+*.tmp
