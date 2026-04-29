@@ -1,0 +1,20 @@
+name: Notify ruankao-exam to sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '真题/**'
+      - '模拟题/**'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger ruankao-exam sync
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.RUANKAO_SYNC_TOKEN }}" \
+            https://api.github.com/repos/wujiaming88/ruankao-exam/dispatches \
+            -d '{"event_type":"awesome-ruankao-updated"}'
