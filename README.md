@@ -244,6 +244,7 @@
 | 平台 | 链接 | 说明 |
 |------|------|------|
 | **软考达人** | 微信小程序搜索"软考达人" | 免费刷题，题库较全 |
+| **万题通关** | 微信小程序搜索"万题通关" | 免费刷题：网工/架构/高项/软设历年真题、考研英语、四六级、驾考、行测共 5 万+题，错题本+模拟考 |
 | **51CTO 题库** | [t.51cto.com](https://t.51cto.com/list/years/sub-240) | 分年份在线做题 |
 | **希赛网** | [educity.cn](https://www.educity.cn/rk/) | 真题+模拟+视频（部分付费） |
 | **软考在线** | [rkpass.cn](https://www.rkpass.cn/) | 在线练习，支持多科目 |
@@ -254,6 +255,7 @@
 |------|-------|------|
 | [xxlllq/system_architect](https://github.com/xxlllq/system_architect) | ⭐ 8300+ | 系统架构设计师全套资料 |
 | [xiaomabenten/system_architect](https://github.com/xiaomabenten/system_architect) | ⭐ 3900+ | 配套刷题软件，2009-2025历年真题 |
+| [yahu01/ruankao-net-engineer-questions](https://github.com/yahu01/ruankao-net-engineer-questions) | 新仓库 | 网络工程师结构化真题数据集：2019-2023 真题 + 2024-2026 回忆版精析共 480 题（JSONL，含答案解析），整理自 Apache-2.0 开源备考资料 |
 
 ---
 
